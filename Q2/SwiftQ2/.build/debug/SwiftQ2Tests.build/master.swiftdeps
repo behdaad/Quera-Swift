@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "7d9a4dbd05ee2f32fcd7145e9200675d"
+build_time: [548247155, 143824000]
+inputs:
+  "/Users/behdad/Developer/Quera/Q2/SwiftQ2/Tests/SwiftQ2Tests/SwiftQ2Tests.swift": [548247095, 0]

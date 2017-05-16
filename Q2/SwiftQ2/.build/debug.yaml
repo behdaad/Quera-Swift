@@ -1,0 +1,47 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Answer.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Classes.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.swiftmodule","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2Tests.build/SwiftQ2Tests.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2Tests.swiftmodule","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2PackageTests.xctest/Contents/MacOS/SwiftQ2PackageTests"]
+  "main": ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Answer.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Classes.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.swiftmodule"]
+default: "main"
+commands: 
+  "<SwiftQ2.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SwiftQ2"
+    module-output-path: "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.swiftmodule"
+    inputs: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/Sources/Answer.swift","/Users/behdad/Developer/Quera/Q2/SwiftQ2/Sources/Classes.swift"]
+    outputs: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Answer.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Classes.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.swiftmodule"]
+    import-paths: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug"]
+    temps-path: "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build"
+    objects: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Answer.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Classes.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-module-cache-path","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/ModuleCache"]
+    sources: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/Sources/Answer.swift","/Users/behdad/Developer/Quera/Q2/SwiftQ2/Sources/Classes.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<SwiftQ2Tests.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SwiftQ2Tests"
+    module-output-path: "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2Tests.swiftmodule"
+    inputs: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.swiftmodule","/Users/behdad/Developer/Quera/Q2/SwiftQ2/Tests/SwiftQ2Tests/SwiftQ2Tests.swift"]
+    outputs: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2Tests.build/SwiftQ2Tests.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2Tests.swiftmodule"]
+    import-paths: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug"]
+    temps-path: "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2Tests.build"
+    objects: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2Tests.build/SwiftQ2Tests.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-module-cache-path","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/ModuleCache"]
+    sources: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/Tests/SwiftQ2Tests/SwiftQ2Tests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<SwiftQ2PackageTests.test>":
+    tool: shell
+    description: "Linking ./.build/debug/SwiftQ2PackageTests.xctest/Contents/MacOS/SwiftQ2PackageTests"
+    inputs: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2Tests.build/SwiftQ2Tests.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Answer.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Classes.swift.o"]
+    outputs: ["/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2PackageTests.xctest/Contents/MacOS/SwiftQ2PackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-L/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug","-o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2PackageTests.xctest/Contents/MacOS/SwiftQ2PackageTests","-module-name","SwiftQ2PackageTests","-Xlinker","-bundle","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2Tests.build/SwiftQ2Tests.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Answer.swift.o","/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Classes.swift.o"]
+

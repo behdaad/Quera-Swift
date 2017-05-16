@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "051dc62f95478d147517ae15ec4bd89f"
+build_time: [548247121, 636471000]
+inputs:
+  "/Users/behdad/Developer/Quera/Q2/SwiftQ2/Sources/Answer.swift": [548177947, 0]
+  "/Users/behdad/Developer/Quera/Q2/SwiftQ2/Sources/Classes.swift": [548172690, 0]

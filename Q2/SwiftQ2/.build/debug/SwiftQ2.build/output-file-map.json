@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/master.swiftdeps"
+  },
+  "/Users/behdad/Developer/Quera/Q2/SwiftQ2/Sources/Answer.swift": {
+    "dependencies": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Answer.d",
+    "object": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Answer.swift.o",
+    "swiftmodule": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Answer~partial.swiftmodule",
+    "swift-dependencies": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Answer.swiftdeps"
+  },
+  "/Users/behdad/Developer/Quera/Q2/SwiftQ2/Sources/Classes.swift": {
+    "dependencies": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Classes.d",
+    "object": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Classes.swift.o",
+    "swiftmodule": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Classes~partial.swiftmodule",
+    "swift-dependencies": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/SwiftQ2.build/Classes.swiftdeps"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/Q2Tests.build/master.swiftdeps"
+  },
+  "/Users/behdad/Developer/Quera/Q2/SwiftQ2/Tests/Q2Tests/Q2Tests.swift": {
+    "dependencies": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/Q2Tests.build/Q2Tests.d",
+    "object": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/Q2Tests.build/Q2Tests.swift.o",
+    "swiftmodule": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/Q2Tests.build/Q2Tests~partial.swiftmodule",
+    "swift-dependencies": "/Users/behdad/Developer/Quera/Q2/SwiftQ2/.build/debug/Q2Tests.build/Q2Tests.swiftdeps"
+  }
+}
